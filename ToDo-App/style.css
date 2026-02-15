@@ -1,0 +1,101 @@
+body{
+font-family:Arial;
+background:#630933;
+color:rgb(255, 253, 253);
+text-align:center;
+}
+
+.dashboard{
+background:#772856;
+width:300px;
+margin:auto;
+padding:12px;
+border-radius:10px;
+}
+
+.bar{
+background:#702b5b;
+height:10px;
+border-radius:7px;
+overflow:hidden;
+}
+
+#progress{
+height:100%;
+width:0%;
+background:#0d8d2d;
+transition:.4s;
+}
+
+.board{
+display:flex;
+justify-content:center;
+gap:15px;
+margin:20px;
+}
+
+.col{
+background:#492039;
+width:180px;
+padding:12px;
+border-radius:10px;
+}
+
+.task{
+background:#5c3146;
+margin:6px;
+padding:6px;
+border-radius:6px;
+cursor:pointer;
+animation:pop .3s;
+}
+
+small{
+color:#d186b2;
+}
+
+@keyframes pop{
+from{opacity:0;transform:scale(.8)}
+to{opacity:1;transform:scale(1)}
+}
+
+button{
+cursor:pointer;
+padding:5px 10px;
+}
+
+.task button{
+margin-top:5px;
+background:#640736;
+border:none;
+padding:3px 6px;
+border-radius:4px;
+font-size:12px;
+cursor:pointer;
+}
+
+ .inputs{
+padding: 8px;
+} 
+
+.task button{
+margin:4px 2px;
+border:none;
+padding:4px 7px;
+border-radius:4px;
+cursor:pointer;
+font-size:12px;
+}
+
+.task button:first-child{
+background:#22c55e;
+}
+
+.task button:last-child{
+background:#ef4444;
+color:white;
+}
+
+.task button:hover{
+opacity:0.85;
+}

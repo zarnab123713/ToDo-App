@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Pro Todo Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>ToDo Board</h1>
+
+<div class="dashboard">
+<p>Total: <span id="total">0</span></p>
+<p>Done: <span id="completed">0</span></p>
+<p>Pending: <span id="pending">0</span></p>
+
+<div class="bar">
+<div id="progress"></div>
+</div>
+</div>
+
+<div class="board">
+
+<div class="col">
+<h3>Todo</h3>
+<div id="todo"></div>
+</div>
+
+<div class="col">
+<h3>Doing</h3>
+<div id="doing"></div>
+</div>
+
+<div class="col">
+<h3>Done</h3>
+<div id="done"></div>
+</div>
+
+</div>
+
+<div class="inputs">
+<input id="task" placeholder="Task name">
+<input type="date" id="date">
+<button onclick="addTask()">Add Task</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
