@@ -61,6 +61,7 @@ No frameworks. No libraries. Pure logic.
 
 📁 Project Structure
 Todo-dashboard/
+
 │
 
 ├ index.html
