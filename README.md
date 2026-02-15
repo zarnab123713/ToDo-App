@@ -131,5 +131,7 @@ Dark mode
 Cloud database support
 
 👨‍💻 Author
+
 silent-eXpert|Zarnab Fatima
+
 Built as a portfolio-level JavaScript project focused on real application logic and clean UI.
