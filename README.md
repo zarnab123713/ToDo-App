@@ -1,12 +1,14 @@
 # ToDo-App
-📋 Pro Todo Dashboard – Advanced JavaScript Project
+# 📋 Pro Todo Dashboard – Advanced JavaScript Project
 
 A powerful Kanban-style Todo Application built using HTML, CSS, and Vanilla JavaScript.
 
 This is not a basic todo list.
 It is a complete task management system with progress tracking and deadline reminders.
 
-🚀 Features
+---
+
+## 🚀 Features
 
 ✅ Add new tasks
 
@@ -26,7 +28,9 @@ It is a complete task management system with progress tracking and deadline remi
 
 ✅ LocalStorage data saving (no data loss on refresh)
 
-📊 Progress Dashboard
+---
+
+## 📊 Progress Dashboard
 
 The dashboard shows:
 
@@ -40,14 +44,18 @@ The dashboard shows:
 
 This helps users track productivity clearly.
 
-⏰ Due Date Reminder System
+---
+
+## ⏰ Due Date Reminder System
 
 Each task includes a deadline.
 
 If a task reaches its due date and is not completed,
 the app automatically shows a reminder alert.
 
-🛠 Technologies Used
+---
+
+## 🛠 Technologies Used
 
 HTML5
 
@@ -59,8 +67,10 @@ Browser LocalStorage
 
 No frameworks. No libraries. Pure logic.
 
-📁 Project Structure
-Todo-dashboard/
+---
+
+## 📁 Project Structure
+**Todo-dashboard**/
 
 │
 
@@ -70,7 +80,9 @@ Todo-dashboard/
 
 └ script.js
 
-▶ How to Run the Project
+---
+
+## ▶ How to Run the Project
 
 Download or clone the repository
 
@@ -80,13 +92,15 @@ Start adding and managing tasks
 
 No installation required.
 
-🌟 Why This Project is Different
+---
+
+## 🌟 Why This Project is Different
 
 Most todo apps only:
 
 ❌ Add & delete items
 
-This project includes:
+**This project includes:**
 
 ✅ Workflow system
 
@@ -98,7 +112,9 @@ This project includes:
 
 This makes it a real-world productivity application.
 
-📸 Screenshots
+---
+
+## 📸 Screenshots
 
 <img width="1232" height="549" alt="Screenshot (242)" src="https://github.com/user-attachments/assets/21557046-f47d-45e9-b5ca-a45883b1e582" />
 
@@ -117,8 +133,9 @@ This makes it a real-world productivity application.
 <img width="1136" height="591" alt="Screenshot (246)" src="https://github.com/user-attachments/assets/75d630f6-0796-42ba-8898-e58401161da5" />
 
 
+---
 
-🚀 Future Improvements
+## 🚀 Future Improvements
 
 Drag & drop task movement
 
@@ -130,8 +147,10 @@ Dark mode
 
 Cloud database support
 
-👨‍💻 Author
+---
 
-silent-eXpert|Zarnab Fatima
+## 👨‍💻 Author
+
+**silent-eXpert|Zarnab Fatima**
 
 Built as a portfolio-level JavaScript project focused on real application logic and clean UI.
